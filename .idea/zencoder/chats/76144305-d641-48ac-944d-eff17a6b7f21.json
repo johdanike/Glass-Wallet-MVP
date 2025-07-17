@@ -1,0 +1,372 @@
+{
+    "checksum": "50f2430bb5fe21e516670269a16eb79612cdbe8a24159a44e7156fcba55234fd",
+    "data": {
+    "id": "76144305-d641-48ac-944d-eff17a6b7f21",
+    "createdAt": 1752730834911,
+    "updatedAt": 1752730889826,
+    "title": "Error starting ApplicationContext. To display t...",
+    "messages": [
+        {
+            "id": "78596d30-312a-4a03-841e-67b1dc400533",
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled."
+                },
+                {
+                    "type": "text",
+                    "text": "2025-07-17T06:33:00.543+01:00 ERROR 15892 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : "
+                },
+                {
+                    "type": "text",
+                    "text": "***************************"
+                },
+                {
+                    "type": "text",
+                    "text": "APPLICATION FAILED TO START"
+                },
+                {
+                    "type": "text",
+                    "text": "***************************"
+                },
+                {
+                    "type": "text",
+                    "text": "Description:"
+                },
+                {
+                    "type": "text",
+                    "text": "Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured."
+                },
+                {
+                    "type": "text",
+                    "text": "Reason: Failed to determine a suitable driver class"
+                },
+                {
+                    "type": "text",
+                    "text": "Action:"
+                },
+                {
+                    "type": "text",
+                    "text": "Consider the following:"
+                },
+                {
+                    "type": "text",
+                    "text": "\tIf you want an embedded database (H2, HSQL or Derby), please put it on the classpath."
+                },
+                {
+                    "type": "text",
+                    "text": "\tIf you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active)."
+                }
+            ],
+            "context": {
+                "codebaseEnabled": true,
+                "ragFiles": [
+                    {
+                        "path": "src/main/java/org/example/config/BeanConfig.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\config\\BeanConfig.java",
+                        "sources": [
+                            "keyword_search"
+                        ]
+                    },
+                    {
+                        "path": "src\\main\\java\\org\\example\\Main.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\Main.java",
+                        "sources": []
+                    },
+                    {
+                        "path": "src\\main\\java\\org\\example\\config\\BeanConfig.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\config\\BeanConfig.java",
+                        "sources": []
+                    },
+                    {
+                        "path": "src\\main\\java\\org\\example\\integration\\WalrusCloudService.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\integration\\WalrusCloudService.java",
+                        "sources": []
+                    },
+                    {
+                        "path": "src\\main\\java\\org\\example\\integration\\CloudService.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\integration\\CloudService.java",
+                        "sources": []
+                    },
+                    {
+                        "path": "src\\main\\java\\org\\example\\service\\ProductServiceImpl.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\service\\ProductServiceImpl.java",
+                        "sources": []
+                    },
+                    {
+                        "path": "pom.xml",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\pom.xml",
+                        "sources": []
+                    },
+                    {
+                        "path": ".gitignore",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\.gitignore",
+                        "sources": []
+                    },
+                    {
+                        "path": "src/main/java/org/example/Main.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\Main.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "pom.xml",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\pom.xml",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/config/BeanConfig.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\config\\BeanConfig.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/repository/ProductRepository.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\repository\\ProductRepository.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/integration/WalrusCloudService.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\integration\\WalrusCloudService.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/controller/ProductController.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\controller\\ProductController.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/dto/response/AddProductResponse.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\dto\\response\\AddProductResponse.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/dto/request/AddProductRequest.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\dto\\request\\AddProductRequest.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/service/ProductService.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\service\\ProductService.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/dto/response/CreateOrderResponse.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\dto\\response\\CreateOrderResponse.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/exception/ProductNotFoundException.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\exception\\ProductNotFoundException.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/model/Product.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\model\\Product.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/service/ProductServiceImpl.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\service\\ProductServiceImpl.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/integration/CloudService.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\integration\\CloudService.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    },
+                    {
+                        "path": "src/main/java/org/example/dto/response/walrus/WalrusUploadResponse.java",
+                        "fsPath": "C:\\Users\\DELL USER\\Desktop\\Glass-Wallet-MVP\\src\\main\\java\\org\\example\\dto\\response\\walrus\\WalrusUploadResponse.java",
+                        "sources": [
+                            "opened_tab"
+                        ]
+                    }
+                ],
+                "rerankedFiles": [
+                    {
+                        "path": "pom.xml",
+                        "fsPath": "pom.xml"
+                    }
+                ],
+                "usedFilePaths": [
+                    {
+                        "path": "pom.xml",
+                        "fsPath": "pom.xml"
+                    }
+                ]
+            },
+            "createdAt": 1752730834911,
+            "isInternal": false,
+            "rawContent": {
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph"
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "2025-07-17T06:33:00.543+01:00 ERROR 15892 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : "
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "***************************"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "APPLICATION FAILED TO START"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "***************************"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Description:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Reason: Failed to determine a suitable driver class"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Action:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Consider the following:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "\tIf you want an embedded database (H2, HSQL or Derby), please put it on the classpath."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "\tIf you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active)."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "f16874c3-9d15-4c4a-a240-79c9dc4c439d",
+            "role": "system",
+            "content": [
+                {
+                    "type": "errorText",
+                    "text": "Rate limit exceeded. You can try again on July 17 at 16:00.",
+                    "allowRegenerate": true,
+                    "actions": [
+                        {
+                            "type": "upgradePlan",
+                            "waitSeconds": 33549
+                        }
+                    ]
+                }
+            ],
+            "createdAt": 1752730889826,
+            "isInternal": false
+        }
+    ],
+    "isAgent": true,
+    "isCustomAgent": false,
+    "isUnitTestsAgent": false
+}
+}

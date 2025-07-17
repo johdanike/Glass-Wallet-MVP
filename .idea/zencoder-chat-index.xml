@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ai.zencoder.plugin.chat.index">
+    <option name="activeChatId" value="76144305-d641-48ac-944d-eff17a6b7f21" />
+    <option name="chatMetadata" value="{&quot;76144305-d641-48ac-944d-eff17a6b7f21&quot;:{&quot;id&quot;:&quot;76144305-d641-48ac-944d-eff17a6b7f21&quot;,&quot;title&quot;:&quot;Error starting ApplicationContext. To display t...&quot;,&quot;createdAt&quot;:1752730834911,&quot;updatedAt&quot;:1752730889826,&quot;isAgent&quot;:true,&quot;messageCount&quot;:2,&quot;lastMessagePreview&quot;:&quot;Rate limit exceeded. You can try again on July 17 at 16:00.&quot;},&quot;b9042f89-3ea3-4344-bf1b-e0978875daa9&quot;:{&quot;id&quot;:&quot;b9042f89-3ea3-4344-bf1b-e0978875daa9&quot;,&quot;title&quot;:&quot;Spring Boot DataSource Configuration&quot;,&quot;createdAt&quot;:1752730820988,&quot;updatedAt&quot;:1752730833211,&quot;isNameGenerated&quot;:true,&quot;messageCount&quot;:2,&quot;lastMessagePreview&quot;:&quot;The error message you're encountering indicates that your Spring Boot application is unable to confi...&quot;}}" />
+  </component>
+</project>
